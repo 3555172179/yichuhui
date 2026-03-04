@@ -1,0 +1,21 @@
+# Cloudflare Pages Build Configuration
+
+# Build directory
+build_command = ""
+build_output = ""
+
+# Redirects for cleaner URLs
+[[redirects]]
+from = "/about"
+to = "/about.html"
+status = 200
+
+[[redirects]]
+from = "/products"
+to = "/products.html"
+status = 200
+
+[[redirects]]
+from = "/contact"
+to = "/contact.html"
+status = 200

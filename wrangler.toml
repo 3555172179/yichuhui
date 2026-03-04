@@ -1,0 +1,9 @@
+name = "yichuhui"
+compatibility_date = "2024-01-01"
+
+[[routes]]
+pattern = "/*"
+custom_domain = ["yichuhui.pages.dev"]
+
+[site]
+bucket = "./public"
