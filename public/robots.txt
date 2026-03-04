@@ -1,0 +1,15 @@
+# Robots.txt for Yichuhui (Zibo) Refrigeration Equipment Co., Ltd.
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://www.yichuhui.com/sitemap.xml
+
+# Crawl delay (optional, adjust as needed)
+Crawl-delay: 1
