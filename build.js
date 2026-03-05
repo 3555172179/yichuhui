@@ -15,7 +15,7 @@ const filesToCopy = [
   'about.html',
   'contact.html',
   '404.html',
-  '_redirects',
+  // _redirects 由 Cloudflare Pages 管理，不需要从根目录复制
   'sitemap.xml',
   'robots.txt'
 ];

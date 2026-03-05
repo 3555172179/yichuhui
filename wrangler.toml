@@ -1,0 +1,26 @@
+name = "yichuhui"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# Static site configuration
+[site]
+bucket = "./public"
+
+# Build settings
+[build]
+command = "npm run build"
+cwd = "."
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+
+# Production deployment
+[env.production]
+name = "yichuhui"
+
+# Staging deployment
+[env.staging]
+name = "yichuhui-staging"
+
+

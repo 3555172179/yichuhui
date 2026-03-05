@@ -149,6 +149,33 @@ The contact form currently displays a success message. To enable actual email fu
 
 ## 🌐 Deployment
 
+### Deploy to Cloudflare Workers (推荐)
+
+1. **安装 Wrangler CLI**
+   ```bash
+   npm install -g wrangler
+   wrangler login
+   ```
+
+2. **本地测试**
+   ```bash
+   npm run build
+   npm run dev:worker
+   # 访问 http://localhost:8788
+   ```
+
+3. **部署到 Workers**
+   ```bash
+   npm run deploy:worker
+   ```
+
+4. **或者部署到 Pages**
+   ```bash
+   npm run deploy:pages
+   ```
+
+详细说明请参考 [CLOUDFLARE_WORKERS_DEPLOY.md](./CLOUDFLARE_WORKERS_DEPLOY.md)
+
 ### Deploy to Vercel
 ```bash
 npm install -g vercel
@@ -161,9 +188,6 @@ vercel
 heroku create
 git push heroku main
 ```
-
-### Deploy to CloudStudio
-Follow the CloudStudio deployment rules for your specific environment.
 
 ## 📞 Contact Information Template
 
